@@ -7,7 +7,7 @@ public class Passenger {
     private long phone;
     private int age;
 
-    public Passenger(String title, String name, long id, long phone, int age) {
+    public Passenger(String title, String name, long id, long phone, int age) {     //constructor
         setTitle(title);
         setName(name);
         setId(id);
