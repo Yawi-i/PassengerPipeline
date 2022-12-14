@@ -14,7 +14,7 @@ public class Passenger {
         setPhone(phone);
         setAge(age);
     }
-
+//title
     public String getTitle() {
         return title;
     }
@@ -27,7 +27,7 @@ public class Passenger {
             throw new IllegalArgumentException("This is not a valid name. Use Mr, Ms or Mrs.");
         }
     }
-
+//name
     public String getName() {
         return name;
     }
@@ -40,7 +40,7 @@ public class Passenger {
             throw new IllegalArgumentException("This is not a valid name.");
         }
     }
-
+//id
     public long getId() {
         return id;
     }
@@ -53,7 +53,7 @@ public class Passenger {
             throw new IllegalArgumentException("This is not a valid ID.");
         }
     }
-
+//phone
     public long getPhone() {
         return phone;
     }
@@ -66,7 +66,7 @@ public class Passenger {
             throw new IllegalArgumentException("This is not a valid phone number.");
         }
     }
-
+//age
     public int getAge() {
         return age;
     }
